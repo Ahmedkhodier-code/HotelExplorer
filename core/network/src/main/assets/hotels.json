@@ -1,0 +1,866 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Grand Nile Hotel",
+      "city": "Cairo",
+      "rating": 4.8,
+      "pricePerNight": 3200,
+      "description": "A luxury hotel overlooking the Nile with modern rooms, premium services and easy access to Cairo attractions.",
+      "address": "Corniche El Nile, Cairo, Egypt",
+      "latitude": 30.0444,
+      "longitude": 31.2357,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Restaurant",
+        "Gym",
+        "Room Service"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cairo Palace Hotel",
+      "city": "Cairo",
+      "rating": 4.5,
+      "pricePerNight": 2400,
+      "description": "A comfortable city hotel offering elegant rooms and convenient access to downtown Cairo.",
+      "address": "Downtown Cairo, Cairo, Egypt",
+      "latitude": 30.0488,
+      "longitude": 31.2437,
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "24/7 Reception"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pyramids View Resort",
+      "city": "Giza",
+      "rating": 4.7,
+      "pricePerNight": 2800,
+      "description": "A scenic resort near the Giza Pyramids featuring comfortable rooms and beautiful views.",
+      "address": "Pyramids Road, Giza, Egypt",
+      "latitude": 29.9792,
+      "longitude": 31.1342,
+      "images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada",
+        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Restaurant",
+        "Pyramid View",
+        "Airport Shuttle"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Alexandria Sea View",
+      "city": "Alexandria",
+      "rating": 4.6,
+      "pricePerNight": 2100,
+      "description": "A relaxing seaside hotel with bright rooms, ocean views and direct access to Alexandria's coastline.",
+      "address": "Corniche Road, Alexandria, Egypt",
+      "latitude": 31.2001,
+      "longitude": 29.9187,
+      "images": [
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2",
+        "https://images.unsplash.com/photo-1505881402582-c5bc11054f91"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Sea View",
+        "Restaurant",
+        "Beach Access",
+        "Breakfast"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Luxor Heritage Hotel",
+      "city": "Luxor",
+      "rating": 4.4,
+      "pricePerNight": 1800,
+      "description": "A charming hotel inspired by Luxor's ancient heritage and located close to major historical sites.",
+      "address": "East Bank, Luxor, Egypt",
+      "latitude": 25.6872,
+      "longitude": 32.6396,
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Swimming Pool",
+        "Breakfast",
+        "Tour Desk"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Aswan Riverside Resort",
+      "city": "Aswan",
+      "rating": 4.9,
+      "pricePerNight": 3500,
+      "description": "A premium riverside resort offering peaceful accommodation and spectacular Nile views.",
+      "address": "Nile Corniche, Aswan, Egypt",
+      "latitude": 24.0889,
+      "longitude": 32.8998,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Nile View",
+        "Spa",
+        "Restaurant",
+        "Gym"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sharm Grand Resort",
+      "city": "Sharm El Sheikh",
+      "rating": 4.8,
+      "pricePerNight": 4200,
+      "description": "A luxury Red Sea resort with private beach access, pools and a wide range of activities.",
+      "address": "Naama Bay, Sharm El Sheikh, Egypt",
+      "latitude": 27.9158,
+      "longitude": 34.3299,
+      "images": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7"
+      ],
+      "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Free WiFi",
+        "Spa",
+        "Gym",
+        "Restaurant"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Hurghada Coral Resort",
+      "city": "Hurghada",
+      "rating": 4.5,
+      "pricePerNight": 3000,
+      "description": "A family-friendly resort with beach access, pools and comfortable rooms near the Red Sea.",
+      "address": "Sheraton Road, Hurghada, Egypt",
+      "latitude": 27.2579,
+      "longitude": 33.8116,
+      "images": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+      ],
+      "amenities": [
+        "Beach Access",
+        "Swimming Pool",
+        "Kids Club",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "New Cairo Residence",
+      "city": "Cairo",
+      "rating": 4.2,
+      "pricePerNight": 1600,
+      "description": "A modern and affordable hotel in New Cairo, ideal for business and short stays.",
+      "address": "New Cairo, Cairo, Egypt",
+      "latitude": 30.0074,
+      "longitude": 31.4913,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Parking",
+        "Breakfast",
+        "24/7 Reception"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Downtown Boutique Hotel",
+      "city": "Cairo",
+      "rating": 4.3,
+      "pricePerNight": 1900,
+      "description": "A stylish boutique hotel located in the heart of Cairo with modern interiors and friendly service.",
+      "address": "Talaat Harb Square, Cairo, Egypt",
+      "latitude": 30.0505,
+      "longitude": 31.2383,
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "Room Service"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mediterranean Pearl",
+      "city": "Alexandria",
+      "rating": 4.7,
+      "pricePerNight": 2700,
+      "description": "An elegant coastal hotel overlooking the Mediterranean Sea with spacious rooms and premium facilities.",
+      "address": "Stanley, Alexandria, Egypt",
+      "latitude": 31.2244,
+      "longitude": 29.9456,
+      "images": [
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+      ],
+      "amenities": [
+        "Sea View",
+        "Beach Access",
+        "Swimming Pool",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Giza Garden Hotel",
+      "city": "Giza",
+      "rating": 4.1,
+      "pricePerNight": 1400,
+      "description": "An affordable hotel offering simple and comfortable accommodation near Giza attractions.",
+      "address": "Al Haram, Giza, Egypt",
+      "latitude": 29.9948,
+      "longitude": 31.1602,
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Garden",
+        "Breakfast",
+        "Parking"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Royal Luxor Palace",
+      "city": "Luxor",
+      "rating": 4.8,
+      "pricePerNight": 3100,
+      "description": "A premium hotel combining traditional Egyptian design with modern comfort near Luxor's historic landmarks.",
+      "address": "Khaled Ibn El Walid Street, Luxor, Egypt",
+      "latitude": 25.6967,
+      "longitude": 32.6421,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Restaurant",
+        "Spa",
+        "Free WiFi",
+        "Tour Desk"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Nile View Suites",
+      "city": "Cairo",
+      "rating": 4.6,
+      "pricePerNight": 2600,
+      "description": "Spacious suites with beautiful Nile views, suitable for families and business travelers.",
+      "address": "Maadi Corniche, Cairo, Egypt",
+      "latitude": 29.9602,
+      "longitude": 31.2569,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6"
+      ],
+      "amenities": [
+        "Nile View",
+        "Free WiFi",
+        "Restaurant",
+        "Gym",
+        "Room Service"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Blue Lagoon Resort",
+      "city": "Hurghada",
+      "rating": 4.4,
+      "pricePerNight": 2500,
+      "description": "A peaceful resort with large pools, beach access and a variety of recreational activities.",
+      "address": "El Mamsha, Hurghada, Egypt",
+      "latitude": 27.1807,
+      "longitude": 33.8212,
+      "images": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Beach Access",
+        "Restaurant",
+        "Free WiFi",
+        "Kids Club"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pyramids Grand Palace",
+      "city": "Giza",
+      "rating": 4.9,
+      "pricePerNight": 3900,
+      "description": "A luxurious property offering panoramic pyramid views, premium rooms and exceptional hospitality.",
+      "address": "Pyramids Plateau, Giza, Egypt",
+      "latitude": 29.9773,
+      "longitude": 31.1325,
+      "images": [
+        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368",
+        "https://images.unsplash.com/photo-1548013146-72479768bada"
+      ],
+      "amenities": [
+        "Pyramid View",
+        "Swimming Pool",
+        "Spa",
+        "Restaurant",
+        "Gym",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Zamalek Garden Suites",
+      "city": "Cairo",
+      "rating": 4.0,
+      "pricePerNight": 1300,
+      "description": "Comfortable budget-friendly suites located in the vibrant Zamalek district.",
+      "address": "Zamalek, Cairo, Egypt",
+      "latitude": 30.0626,
+      "longitude": 31.2197,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Breakfast",
+        "Kitchen",
+        "Parking"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Aswan Nile Palace",
+      "city": "Aswan",
+      "rating": 4.6,
+      "pricePerNight": 2900,
+      "description": "A comfortable riverside hotel offering relaxing rooms and easy access to Aswan attractions.",
+      "address": "Nile Corniche, Aswan, Egypt",
+      "latitude": 24.0922,
+      "longitude": 32.8899,
+      "images": [
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+      ],
+      "amenities": [
+        "Nile View",
+        "Swimming Pool",
+        "Restaurant",
+        "Free WiFi",
+        "Breakfast"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sharm Coral Bay",
+      "city": "Sharm El Sheikh",
+      "rating": 4.3,
+      "pricePerNight": 3300,
+      "description": "A vibrant Red Sea resort with comfortable accommodation and access to snorkeling and diving activities.",
+      "address": "Coral Bay, Sharm El Sheikh, Egypt",
+      "latitude": 27.9288,
+      "longitude": 34.3249,
+      "images": [
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7"
+      ],
+      "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Diving",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Alexandria Royal Inn",
+      "city": "Alexandria",
+      "rating": 4.2,
+      "pricePerNight": 1700,
+      "description": "A practical hotel close to Alexandria's main attractions, offering comfortable rooms at an affordable price.",
+      "address": "Raml Station, Alexandria, Egypt",
+      "latitude": 31.1998,
+      "longitude": 29.9013,
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "24/7 Reception"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Cairo Skyline Hotel",
+      "city": "Cairo",
+      "rating": 4.7,
+      "pricePerNight": 2900,
+      "description": "A modern hotel with panoramic city views, contemporary rooms and excellent business facilities.",
+      "address": "Nasr City, Cairo, Egypt",
+      "latitude": 30.0511,
+      "longitude": 31.3656,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Gym",
+        "Restaurant",
+        "Business Center",
+        "Swimming Pool"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Maadi Riverside Hotel",
+      "city": "Cairo",
+      "rating": 4.3,
+      "pricePerNight": 1750,
+      "description": "A quiet hotel in Maadi with comfortable rooms and convenient access to the Nile.",
+      "address": "Maadi, Cairo, Egypt",
+      "latitude": 29.9607,
+      "longitude": 31.2594,
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "Parking"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Giza Pyramid Inn",
+      "city": "Giza",
+      "rating": 4.5,
+      "pricePerNight": 2200,
+      "description": "A cozy hotel located within easy reach of the pyramids, perfect for sightseeing travelers.",
+      "address": "Abou Al Houl Street, Giza, Egypt",
+      "latitude": 29.9777,
+      "longitude": 31.1371,
+      "images": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada"
+      ],
+      "amenities": [
+        "Pyramid View",
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "Tour Desk"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Alexandria Marina Hotel",
+      "city": "Alexandria",
+      "rating": 4.4,
+      "pricePerNight": 2300,
+      "description": "A modern seaside hotel near Alexandria Marina with comfortable rooms and excellent dining options.",
+      "address": "Alexandria Marina, Alexandria, Egypt",
+      "latitude": 31.2075,
+      "longitude": 29.9096,
+      "images": [
+        "https://images.unsplash.com/photo-1505881402582-c5bc11054f91",
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2"
+      ],
+      "amenities": [
+        "Sea View",
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "Room Service"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Luxor Nile Garden",
+      "city": "Luxor",
+      "rating": 4.2,
+      "pricePerNight": 1500,
+      "description": "An affordable garden hotel with a peaceful atmosphere and easy access to Luxor's attractions.",
+      "address": "West Bank, Luxor, Egypt",
+      "latitude": 25.7041,
+      "longitude": 32.6402,
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+      ],
+      "amenities": [
+        "Garden",
+        "Free WiFi",
+        "Breakfast",
+        "Restaurant"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Luxor Royal Resort",
+      "city": "Luxor",
+      "rating": 4.7,
+      "pricePerNight": 2600,
+      "description": "A refined resort with spacious rooms, swimming pools and views of the surrounding landscape.",
+      "address": "Luxor Temple Area, Luxor, Egypt",
+      "latitude": 25.6998,
+      "longitude": 32.6428,
+      "images": [
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6",
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Restaurant",
+        "Spa",
+        "Free WiFi",
+        "Garden"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Aswan Sunset Hotel",
+      "city": "Aswan",
+      "rating": 4.1,
+      "pricePerNight": 1600,
+      "description": "A comfortable budget hotel known for peaceful evenings and beautiful sunset views.",
+      "address": "Elephantine Island, Aswan, Egypt",
+      "latitude": 24.0871,
+      "longitude": 32.8875,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Restaurant",
+        "Garden",
+        "Breakfast"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Aswan Royal Island Resort",
+      "city": "Aswan",
+      "rating": 4.8,
+      "pricePerNight": 3300,
+      "description": "A peaceful island resort surrounded by the Nile with premium rooms and excellent facilities.",
+      "address": "Elephantine Island, Aswan, Egypt",
+      "latitude": 24.0852,
+      "longitude": 32.8911,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6"
+      ],
+      "amenities": [
+        "Nile View",
+        "Swimming Pool",
+        "Spa",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Hurghada Palm Resort",
+      "city": "Hurghada",
+      "rating": 4.0,
+      "pricePerNight": 1900,
+      "description": "A budget-friendly beach resort with comfortable accommodation and outdoor activities.",
+      "address": "Dahar, Hurghada, Egypt",
+      "latitude": 27.2571,
+      "longitude": 33.8124,
+      "images": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd"
+      ],
+      "amenities": [
+        "Beach Access",
+        "Swimming Pool",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Hurghada Blue Pearl",
+      "city": "Hurghada",
+      "rating": 4.6,
+      "pricePerNight": 3200,
+      "description": "A stylish Red Sea resort featuring spacious rooms, private beach access and water activities.",
+      "address": "Sahl Hasheesh Road, Hurghada, Egypt",
+      "latitude": 27.1058,
+      "longitude": 33.8195,
+      "images": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6",
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd"
+      ],
+      "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Diving",
+        "Spa",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Sharm Ocean Breeze",
+      "city": "Sharm El Sheikh",
+      "rating": 4.4,
+      "pricePerNight": 2800,
+      "description": "A comfortable resort offering ocean views, beach activities and relaxing accommodation.",
+      "address": "Nabq Bay, Sharm El Sheikh, Egypt",
+      "latitude": 28.0074,
+      "longitude": 34.4265,
+      "images": [
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7",
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+      ],
+      "amenities": [
+        "Sea View",
+        "Beach Access",
+        "Swimming Pool",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Sharm Royal Palace",
+      "city": "Sharm El Sheikh",
+      "rating": 4.9,
+      "pricePerNight": 4600,
+      "description": "A premium resort with luxurious rooms, private beach access, spa services and multiple restaurants.",
+      "address": "Sharks Bay, Sharm El Sheikh, Egypt",
+      "latitude": 27.9601,
+      "longitude": 34.3935,
+      "images": [
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7",
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+      ],
+      "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Spa",
+        "Gym",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Cairo Garden Residence",
+      "city": "Cairo",
+      "rating": 3.9,
+      "pricePerNight": 1100,
+      "description": "A simple and affordable residence suitable for travelers looking for practical accommodation in Cairo.",
+      "address": "Heliopolis, Cairo, Egypt",
+      "latitude": 30.0912,
+      "longitude": 31.3287,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Breakfast",
+        "Parking",
+        "24/7 Reception"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Heliopolis Grand Hotel",
+      "city": "Cairo",
+      "rating": 4.5,
+      "pricePerNight": 2500,
+      "description": "A well-appointed hotel in Heliopolis with modern facilities and easy airport access.",
+      "address": "Heliopolis, Cairo, Egypt",
+      "latitude": 30.0867,
+      "longitude": 31.3249,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Gym",
+        "Restaurant",
+        "Airport Shuttle"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Alexandria Blue Harbor",
+      "city": "Alexandria",
+      "rating": 4.8,
+      "pricePerNight": 3000,
+      "description": "A premium waterfront hotel offering beautiful Mediterranean views and high-quality services.",
+      "address": "San Stefano, Alexandria, Egypt",
+      "latitude": 31.2454,
+      "longitude": 29.9664,
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2"
+      ],
+      "amenities": [
+        "Sea View",
+        "Beach Access",
+        "Swimming Pool",
+        "Spa",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Giza Royal View",
+      "city": "Giza",
+      "rating": 4.3,
+      "pricePerNight": 2000,
+      "description": "A comfortable hotel with convenient access to the pyramids and panoramic views of the Giza plateau.",
+      "address": "Pyramids Road, Giza, Egypt",
+      "latitude": 29.9813,
+      "longitude": 31.1385,
+      "images": [
+        "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368"
+      ],
+      "amenities": [
+        "Pyramid View",
+        "Free WiFi",
+        "Restaurant",
+        "Breakfast",
+        "Parking"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Cairo Business Suites",
+      "city": "Cairo",
+      "rating": 4.4,
+      "pricePerNight": 2200,
+      "description": "Modern suites designed for business travelers with spacious work areas and reliable facilities.",
+      "address": "New Cairo, Cairo, Egypt",
+      "latitude": 30.0174,
+      "longitude": 31.4547,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+      ],
+      "amenities": [
+        "Free WiFi",
+        "Business Center",
+        "Gym",
+        "Restaurant",
+        "Parking"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Nile Garden Palace",
+      "city": "Cairo",
+      "rating": 4.7,
+      "pricePerNight": 3400,
+      "description": "An elegant Nile-side hotel combining traditional hospitality with modern luxury and excellent dining.",
+      "address": "Garden City, Cairo, Egypt",
+      "latitude": 30.0384,
+      "longitude": 31.2285,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6"
+      ],
+      "amenities": [
+        "Nile View",
+        "Swimming Pool",
+        "Spa",
+        "Restaurant",
+        "Gym",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Red Sea Family Resort",
+      "city": "Hurghada",
+      "rating": 4.3,
+      "pricePerNight": 2400,
+      "description": "A family-oriented resort with pools, beach access and activities for children and adults.",
+      "address": "Makadi Bay, Hurghada, Egypt",
+      "latitude": 26.9912,
+      "longitude": 33.8988,
+      "images": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd",
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6"
+      ],
+      "amenities": [
+        "Beach Access",
+        "Swimming Pool",
+        "Kids Club",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Alexandria Sunset Palace",
+      "city": "Alexandria",
+      "rating": 4.6,
+      "pricePerNight": 2600,
+      "description": "A relaxing coastal hotel known for sunset views, comfortable rooms and easy access to the Mediterranean.",
+      "address": "Montaza, Alexandria, Egypt",
+      "latitude": 31.2868,
+      "longitude": 30.0165,
+      "images": [
+        "https://images.unsplash.com/photo-1505881402582-c5bc11054f91",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+      ],
+      "amenities": [
+        "Sea View",
+        "Beach Access",
+        "Swimming Pool",
+        "Restaurant",
+        "Free WiFi"
+      ]
+    }
+  ]
+}
