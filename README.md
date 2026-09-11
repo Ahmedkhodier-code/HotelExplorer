@@ -5,7 +5,7 @@
 Built from the ground up adhering to **Clean Architecture**, **SOLID Principles**, and **Multi-Module Architecture**, this project showcases clean separation of concerns, reactive state management, Room caching for offline-first capabilities, and end-to-end automated testing.
 
 ---
-
+AI usage
 ## 📱 App Screenshots
 
 | 1. Explore & Search | 2. Filter Sheet | 3. Hotel Details |
@@ -178,6 +178,14 @@ Execute Connected Android Instrumentation / UI Tests:
 - **Remote Data Source:** Hotel data is served from a live Firebase Realtime Database endpoint over Retrofit/Moshi rather than a local booking backend, since a full booking API was not required for this project's scope.
 - **Currency & Formatting:** Amounts are formatted in Egyptian Pounds (`EGP`) with centralized resource strings (`strings.xml`) supporting clean internationalization.
 - **Shared Booking State:** Navigation sub-graph (`booking_flow/{hotel_id}`) shares a single ViewModel instance between `BookingScreen` and `BookingSuccessScreen`, eliminating redundant state fetches and ensuring the generated booking reference is preserved.
+
+---
+
+## 🤖 AI Usage
+
+Claude (Anthropic) was used for two things on this project: reviewing the code for bugs and issues, and help with the Android instrumented test (`HotelBookingFlowTest`).
+
+All AI output was reviewed manually before being applied — nothing was committed without understanding what it does and why.
 
 ---
 
